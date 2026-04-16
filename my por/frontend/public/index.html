@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Lalisa Gadafa Tolera, a 3rd-year Software Engineering student at Abaminch University, showcasing Cybersecurity and Web Development projects.">
+  <title>Lalisa Gadafa Tolera | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="matrix-bg" id="matrixBg"></div>
+
+  <header class="glass-nav">
+    <div class="logo">
+      <span class="cmd-prompt">&gt;_</span> SecDev_Portfolio
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Deployments</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#status">System Status</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-image">
+          <div class="img-border-fx">
+            <img src="img/profile.png" alt="Lalisa Gadafa Tolera Profile Picture" class="profile-pic">
+          </div>
+        </div>
+        <div class="hero-content">
+          <p class="subtitle">Access Granted // Welcome</p>
+          <h1 class="glitch" data-text="Lalisa Gadafa Tolera">Lalisa Gadafa Tolera</h1>
+          <p class="description">3rd-year Software Engineering student at Abaminch University. Building secure, high-performance web applications and defending digital assets against emerging threats.</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary-btn">View Projects</a>
+            <a href="#contact" class="btn secondary-btn">Establish Comm</a>
+          </div>
+          <div class="social-links" style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1.5rem;">
+             <a href="mailto:lalisagadafa265@gmail.com" class="social-icon">Email</a>
+             <a href="https://github.com/Rafisa265" target="_blank" class="social-icon">GitHub</a>
+             <a href="https://github.com/Rafisa265/my-certificates" target="_blank" class="social-icon">Certificates</a>
+             <a href="http://www.youtube.com/@lalisagadafa" target="_blank" class="social-icon">YouTube</a>
+             <a href="https://t.me/Lalisagedefa" target="_blank" class="social-icon">Telegram</a>
+             <a href="https://vm.tiktok.com/ZS9L9K293eNEB-3mwlX/" target="_blank" class="social-icon">TikTok</a>
+             <a href="https://www.facebook.com/profile.php?id=100086247255835" target="_blank" class="social-icon">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Technical_Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🛡️</div>
+          <h3>Offensive & Defensive Security</h3>
+          <p>Penetration Testing, Vulnerability Assessments, Network Traffic Analysis, Incident Response.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Frontend Development</h3>
+          <p>HTML5, CSS3/Tailwind, JavaScript, React, Next.js, building responsive and accessible UIs.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend Architecture</h3>
+          <p>Node.js, Express, Python (Flask/Django), RESTful APIs, Secure Authentication.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Deployed_Assets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img placeholder-img">
+            <span>[System Architecture Diagram]</span>
+          </div>
+          <div class="project-info">
+            <h3>Lucy Cafe System UML</h3>
+            <p>Comprehensive System Architecture and Unified Modeling Language (UML) design documents mapping out the entire operational flow of the Lucy Cafe system.</p>
+            <div class="tags">
+              <span class="tag">UML</span><span class="tag">System Design</span><span class="tag">Architecture</span>
+            </div>
+            <div style="margin-top: 1.5rem;">
+              <a href="https://github.com/Eby-Ebisa/Lucy-Cafe-System-UML" target="_blank" class="social-icon">View Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img placeholder-img" style="background: linear-gradient(45deg, #0d1117, #161b22);">
+            <span>[GitHub Activity Graph]</span>
+          </div>
+          <div class="project-info">
+            <h3>Open Source Codebase</h3>
+            <p>Explore my complete library of repositories, consisting of full-stack projects, algorithms, and technical engineering solutions.</p>
+            <div class="tags">
+              <span class="tag">Open Source</span><span class="tag">Software Engineering</span><span class="tag">Full-Stack</span>
+            </div>
+            <div style="margin-top: 1.5rem;">
+              <a href="https://github.com/Rafisa265" target="_blank" class="social-icon">View GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Secure_Comms</h2>
+      <p style="margin-bottom: 2rem; color: var(--text-muted);">Establish an encrypted channel to request services or report vulnerabilities.</p>
+      
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Communication Sent Securely!');">
+        <div class="form-group">
+          <label for="name">Alias // Name</label>
+          <input type="text" id="name" required placeholder="Enter alias...">
+        </div>
+        <div class="form-group">
+          <label for="email">Encrypted Email // Contact</label>
+          <input type="email" id="email" required placeholder="Enter email...">
+        </div>
+        <div class="form-group">
+          <label for="message">Payload // Message</label>
+          <textarea id="message" rows="5" required placeholder="Inject payload here..."></textarea>
+        </div>
+        <button type="submit" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Transmit Data</button>
+      </form>
+    </section>
+
+    <section id="status" class="terminal-section">
+      <h2 class="section-title">System_Diagnostic</h2>
+      <p>Initiate connection to the backend server to verify component integrity.</p>
+      
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-button close"></div>
+          <div class="terminal-button minimize"></div>
+          <div class="terminal-button maximize"></div>
+          <div class="terminal-title">root@server:~</div>
+        </div>
+        <div class="terminal-body">
+          <div class="command-line">
+            <span class="prompt">root@server:~#</span> 
+            <button id="fetchApi" class="terminal-btn">./ping_backend.sh</button>
+          </div>
+          <pre id="apiResult" class="terminal-output">Waiting for command execution...</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lalisa Gadafa Tolera. All connections encrypted.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
